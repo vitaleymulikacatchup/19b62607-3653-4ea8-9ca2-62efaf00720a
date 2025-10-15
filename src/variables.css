@@ -1,0 +1,137 @@
+/* ============================================ */
+/* CSS Variables from https://01e64382-2e3d-44ee-a4df-9c3357d0b73f-hksn8je37.vercel.app */
+/* Extracted and verified by AI */
+/* ============================================ */
+
+:root {
+  /* Color Variables */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-800: oklch(27.8% .033 256.848);
+  --color-red-500: oklch(63.7% .237 25.331);
+  --color-rose-100: oklch(94.1% .03 12.58);
+  
+  /* Primary Color Shades */
+  --primary-100: #e3f2fd; /* Light Shade */
+  --primary-200: #bbdefb; /* Light Shade */
+  --primary-300: #90caf9; /* Light Shade */
+  --primary-400: #64b5f6; /* Light Shade */
+  --primary-500: #42a5f5; /* Main Shade */
+  --primary-600: #2196f3; /* Darker Shade */
+  --primary-700: #1e88e5; /* Darker Shade */
+  --primary-800: #1976d2; /* Darker Shade */
+  --primary-900: #1565c0; /* Darker Shade */
+
+  /* Background and Foreground */
+  --background: #fff;
+  --foreground: #000000e6;
+  --color-foreground: var(--foreground);
+  --muted-foreground: var(--muted-foreground);
+
+  /* Blur Variables */
+  --blur-xs: 4px;
+  --blur-sm: 8px;
+  --blur-xl: 24px;
+
+  /* Font Variables */
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+
+  /* Transition Variables */
+  --default-transition-duration: .15s;
+  --default-transition-timing-function: cubic-bezier(.4,0,.2,1);
+  --ease-in-out: cubic-bezier(.4,0,.2,1);
+  --ease-out: cubic-bezier(0,0,.2,1);
+
+  /* Height Variables */
+  --height-4: var(--height-4);
+  --height-5: var(--height-5);
+  --height-6: var(--height-6);
+  --height-7: var(--height-7);
+  --height-8: var(--height-8);
+  --height-9: var(--height-9);
+  --height-10: var(--height-10);
+  --height-11: var(--height-11);
+  --height-12: var(--height-12);
+  --height-30: var(--height-30);
+  --height-90: var(--height-90);
+  --height-100: var(--height-100);
+  --height-110: var(--height-110);
+  --height-120: var(--height-120);
+  --height-130: var(--height-130);
+  --height-140: var(--height-140);
+  --height-150: var(--height-150);
+
+  /* Spacing Variables */
+  --spacing: .25rem;
+
+  /* Border Radius Variables */
+  --radius: var(--vw-0_75);
+  --radius-full: 999px; 
+  --radius-lg: var(--vw-1_25);
+  --radius-xl: var(--vw-1_75);
+  --theme-border-radius: var(--radius-lg);
+  --theme-border-radius-capped: var(--radius-lg);
+
+  /* Width Variables */
+  --width-5: var(--width-5);
+  --width-10: var(--width-10);
+  --width-15: var(--width-15);
+  --width-20: var(--width-20);
+  --width-30: var(--width-30);
+  --width-40: var(--width-40);
+  --width-50: var(--width-50);
+  --width-60: var(--width-60);
+  --width-70: var(--width-70);
+  --width-80: var(--width-80);
+  --width-90: var(--width-90);
+  --width-100: var(--width-100);
+  --width-5: var(--width-5);
+  
+  /* Text Size Variables */
+  --text-xs: var(--text-xs);
+  --text-sm: var(--text-sm);
+  --text-base: var(--text-base);
+  --text-lg: var(--text-lg);
+  --text-xl: var(--text-xl);
+  --text-2xl: var(--text-2xl);
+  --text-3xl: var(--text-3xl);
+  --text-4xl: var(--text-4xl);
+  --text-5xl: var(--text-5xl);
+  --text-6xl: var(--text-6xl);
+  --text-7xl: var(--text-7xl);
+  --text-8xl: var(--text-8xl);
+  --text-9xl: var(--text-9xl);
+  
+  /* Line Height Variables */
+  --text-xs--line-height: calc(1/.75);
+  --text-sm--line-height: calc(1.25/.875);
+  --text-base--line-height: calc(1.5/1);
+  --text-lg--line-height: calc(1.75/1.125);
+  --text-xl--line-height: calc(1.75/1.25);
+  --text-2xl--line-height: calc(2/1.5);
+  --text-3xl--line-height: calc(2.25/1.875);
+  --text-4xl--line-height: calc(2.5/2.25);
+  --text-5xl--line-height: 1;
+  --text-6xl--line-height: 1;
+  --text-7xl--line-height: 1;
+  --text-8xl--line-height: 1;
+  --text-9xl--line-height: 1;
+  
+  /* Utility Variables */
+  --tw-backdrop-blur: initial;
+  --tw-backdrop-brightness: initial;
+  --tw-ring-color: initial;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-offset-shadow: 0 0 #0000;
+
+  /* Miscellaneous */
+  --content: "";
+  --foreground: #000000e6;
+  --color-foreground: var(--foreground);
+}
